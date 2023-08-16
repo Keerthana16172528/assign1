@@ -1,0 +1,23 @@
+header {
+    position: relative; /* Use relative positioning for proper alignment */
+    color: darkgreen;
+    background-color: darkkhaki;
+    width: 100%;
+    text-align: center;
+    padding: 10px;}
+
+    header nav button {
+        color: white;
+  background-color: #e60690; /* Blue color for buttons */
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-right: 1000px;
+      }
+
+      header nav button:last-child {
+        margin-right: 0; /* Remove margin from the last button */
+      }

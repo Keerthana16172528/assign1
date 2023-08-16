@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50vh;
+  margin-bottom: 20px;
+  padding-top: 50px; 
+  }
+  
+  /* Style the form elements */
+  form {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Limit the width of the form */
+    padding: 20px;
+    border: 1px solid #15e323;
+    background-color: #f9ed06;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    color: brown;
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }

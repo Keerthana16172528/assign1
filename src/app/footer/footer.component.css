@@ -1,0 +1,11 @@
+/* Keep the footer at the bottom of the page */
+footer {
+    position: absolute;
+    bottom: 0;
+    color: darkgreen;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
