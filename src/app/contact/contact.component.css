@@ -22,3 +22,14 @@
     color: brown;
     margin-bottom: 20px; /* Adjust the value as needed */
   }
+  /* Adjust the size of the calendar popup */
+  mat-datepicker-toggle {
+  width: 250px;
+  height: 250px;
+}
+mat-datepicker{
+  width: 250px;
+  height: 250px;
+}
+
+/* Adjust the font size of the calendar cells */

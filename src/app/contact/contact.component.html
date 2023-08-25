@@ -14,9 +14,13 @@
       <br>
       <br>
       <br>
-      <label for="message">Message: </label>
-      <textarea id="message" name="message" required></textarea>
-      <br>
+      <mat-form-field>
+        <mat-label>DOB</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
       <br>
       <br>
       <button type="submit" style="background-color: #0ff94d; color: #f11010;">Submit</button>

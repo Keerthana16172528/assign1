@@ -1,3 +1,19 @@
 <app-header></app-header>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
+<br>
+<br>
+<div class="button-container">
+<button (click)="toggleList()">SHOW PRODUCTS</button>
+</div>
+<ul *ngIf="showList"> 
+    <li *ngFor ="let products of product.listofproducts">
+    {{products.title}} is {{products.description}} & the price is {{products.price}}
+    
+    </li>
+</ul>
+<!--api call-->
+<div *ngIf="apiData">
+    <h2>API Data</h2>
+    <pre>{{ apiData | json }}</pre>
+  </div>
